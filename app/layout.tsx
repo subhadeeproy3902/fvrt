@@ -7,6 +7,7 @@ const inter = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Fvrt | Image Converter',
   description: 'Convert your images instantly to any format',
+  metadataBase: new URL("https://fvrt.vercel.app"),
 };
 
 export default function RootLayout({
