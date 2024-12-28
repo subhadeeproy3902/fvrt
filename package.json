@@ -9,9 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-progress": "^1.1.1",
+    "@radix-ui/react-select": "^2.1.4",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@types/file-saver": "^2.0.7",
+    "browser-image-compression": "^2.0.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^11.15.0",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.469.0",
+    "next": "14.2.5",
+    "pdf-lib": "^1.17.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-dropzone": "^14.3.5",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "typescript": "^5",

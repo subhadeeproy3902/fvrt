@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FVRT - Your Go-To Image Converter
 
-## Getting Started
+![img](./app/opengraph-image.png)
 
-First, run the development server:
+FVRT is a powerful and efficient image converter built using **Next.js** and **TypeScript**. It allows you to seamlessly convert multiple images with features like intelligent format detection, high-speed processing, and batch downloads, ensuring a smooth user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. **Multiple Images**
+- Convert up to 10 images at a time.
+- Real-time progress tracking for an enhanced user experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. **Smart Conversion**
+- Intelligent format detection ensures compatibility.
+- Optimized conversion to maintain quality.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 3. **Batch Download**
+- Download all converted images in one go.
+- A single ZIP file for easy management using **jszip** and **file-saver**.
 
-## Learn More
+### 4. **High Speed**
+- Experience fast and efficient conversion with minimal delay.
+- Perfect for time-sensitive tasks.
 
-To learn more about Next.js, take a look at the following resources:
+### 5. **Drag-and-Drop Upload**
+- Simplify file selection with a drag-and-drop interface powered by **react-dropzone**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 6. **Browser Compatibility**
+- Utilizes **browser-image-compression** for efficient image compression directly in the browser.
+- No need for server-side processing, ensuring faster results.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 7. **Modern Design**
+- Designed with **Shadcn** for an elegant and user-friendly interface.
 
-## Deploy on Vercel
+## How to Use
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Upload Images**: Drag and drop up to 10 images using the intuitive drag-and-drop interface or select them manually from your device.
+2. **Select Format**: Choose the desired output format (e.g., PNG, JPEG, etc.).
+3. **Convert**: Click the convert button and track the real-time progress.
+4. **Download**: Once completed, download all images in a single ZIP file using the batch download feature.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Tech Stack
+
+- **Next.js**: A React framework for building fast and scalable web applications.
+- **TypeScript**: Ensures robust and type-safe development.
+- **react-dropzone**: Simplifies file uploads with a drag-and-drop interface.
+- **jszip**: Handles ZIP file creation for batch downloads.
+- **file-saver**: Enables smooth ZIP file creation and downloads.
+- **browser-image-compression**: Handles efficient image compression within the browser.
+- **Shadcn**: Provides a modern and customizable UI framework.
+
+## Why Choose FVRT?
+
+- **User-Friendly**: Simplistic and intuitive interface.
+- **Optimized**: High-quality output with intelligent format detection.
+- **Convenience**: Batch processing and single-click download for efficient workflows.
+- **Secure**: All processing is done in the browser, ensuring your images are not uploaded to external servers.
+
+## Contributing
+Contributions are welcome! If you have suggestions for new features or improvements, feel free to submit an issue or pull request.
+
+---
+
+Effortless image conversion, one click at a time!
